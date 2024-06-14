@@ -19,10 +19,10 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRrcnAD
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/04e09c20e70de180ee319.jpg";
 global.devs = "255673750170";
 global.sudo = process.env.SUDO || "255673750170";
-global.owner = process.env.OWNER_NUMBER || "255673750170";
+global.owner = process.env.OWNER_NUMBER || "2348105423421";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -34,8 +34,8 @@ global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
-global.save_status_from = process.env.SAVE_STATUS_FROM || "";
-global.read_status_from = process.env.READ_STATUS_FROM || "";
+global.save_status_from = process.env.SAVE_STATUS_FROM || "true";
+global.read_status_from = process.env.READ_STATUS_FROM || "false";
 
 global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://rb.gy/nl69nj";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝖂𝖔𝖜 𝖙𝖔𝖕𝖚 𝖒𝖉 𝖍𝖆𝖘 𝖏𝖚𝖘𝖙 𝖌𝖊𝖓𝖊𝖗𝖆𝖙𝖊𝖉 𝖆 𝖓𝖊𝖜 𝖋𝖎𝖑𝖊",
+  caption: process.env.CAPTION || "Yungsorex is boss",
   author: process.env.PACK_AUTHER || "TOPU",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "TOP-Md",
-  ownername: process.env.OWNER_NAME || "TOPU",
+  botname: process.env.BOT_NAME || "yungsorex_bot",
+  ownername: process.env.OWNER_NAME || "yungsorex",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
